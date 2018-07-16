@@ -19,7 +19,7 @@ public class GPSStatePackage implements ReactPackage {
 		return Collections.emptyList();
 	}
 	
-	@Override
+	//@Override deprecate rn 47
 	public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
 		List<NativeModule> modules = new ArrayList<>();
 		modules.add(new GPSStateModule(reactContext));
